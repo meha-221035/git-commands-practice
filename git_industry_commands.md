@@ -117,3 +117,167 @@ git clone --depth 1 https://github.com/username/repository.git
 (Add screenshot here)
 
 ---
+
+## 3. Repository Status & Inspection Commands
+
+### 3.1 git status
+
+**Syntax:**
+git status
+
+**Purpose:**
+Displays the current state of the working directory and staging area.
+
+**Example:**
+git status
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.2 git log
+
+**Syntax:**
+git log
+
+**Purpose:**
+Shows detailed commit history.
+
+**Example:**
+git log
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.3 git log --oneline
+
+**Syntax:**
+git log --oneline
+
+**Purpose:**
+Displays commit history in compact one-line format.
+
+**Example:**
+git log --oneline
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.4 git log --graph
+
+**Syntax:**
+git log --graph --oneline --all
+
+**Purpose:**
+Displays commit history in graphical tree format.
+
+**Example:**
+git log --graph --oneline --all
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.5 git show
+
+**Syntax:**
+git show <commit-id>
+
+**Purpose:**
+Shows detailed information about a specific commit.
+
+**Example:**
+git show abc123
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.6 git diff
+
+**Syntax:**
+git diff
+
+**Purpose:**
+Shows differences between working directory and staging area.
+
+**Example:**
+git diff
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.7 git diff --staged
+
+**Syntax:**
+git diff --staged
+
+**Purpose:**
+Shows differences between staging area and last commit.
+
+**Example:**
+git diff --staged
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.8 git blame
+
+**Syntax:**
+git blame <file-name>
+
+**Purpose:**
+Shows who modified each line of a file.
+
+**Example:**
+git blame git_industry_commands.md
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.9 git reflog
+
+**Syntax:**
+git reflog
+
+**Purpose:**
+Shows history of all branch movements and HEAD changes.
+
+**Example:**
+git reflog
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+### 3.10 git shortlog
+
+**Syntax:**
+git shortlog
+
+**Purpose:**
+Summarizes commit history by author.
+
+**Example:**
+git shortlog
+
+**Screenshot Proof:**
+(Add screenshot here)
+
+---
+
+Testing file tracking section
